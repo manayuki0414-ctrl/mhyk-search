@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.group-title {
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  color: white;
+}
+
+/* グループ色 */
+.group-pa { background: #DC454C; color: white; } /* 赤 */
+.group-ha { background: #F5A423; color: white; } /* 黄 */
+.group-re { background: #26B666; color: white; } /* 緑 */
+.group-co { background: #03B8E6; color: white; } /* 青 */
+.group-pr { background: #6151FF; color: white; } /* 紫 */
+
+.tag-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0 20px 0;
+}
+
+.tag-item {
+  background: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+.skill-check {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.card {
+  background: white;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+
+/* 枠線なし・控えめ金色背景 */
+.special-tag {
+  background: rgba(212, 175, 55, 0.15) !important; /* 薄い金色 */
+  border-radius: 6px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+
+/* 通常タグ用：控えめ銀背景（マットシルバー） */
+.tag-item {
+  background: rgba(200, 210, 230, 0.15);
+  border-radius: 6px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  background: rgba(255,255,255,0.1);
+}
+
+.card-info {
+  flex: 1;
+}
+
+.card-img {
+  width: 50px;
+  border-radius: 8px;
+}
+
+.card-info strong {
+  font-weight: 900 !important;
+}
+
+.gold-attr {
+  font-weight: 550;
+  color: #000; /* 黒 */
+}
+
+.attr-pa {
+  background: rgba(220, 69, 76, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.attr-ha {
+  background: rgba(245, 164, 35, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.attr-re {
+  background: rgba(38, 182, 102, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.attr-co {
+  background: rgba(3, 184, 230, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.attr-pr {
+  background: rgba(97, 81, 255, 0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* special（神秘・威厳など）は太字だけ */
+.gold-attr {
+  font-weight: 600;
+}
+
